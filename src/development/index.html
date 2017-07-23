@@ -1,0 +1,22 @@
+---
+layout: main
+title: Development
+excerpt: "Guides, Sources &amp; Technologies"
+footer_related_posts: false
+
+paginate:
+  collection: posts
+  category: 'development'
+---
+
+<main>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.excerpt }}</p>
+  </header>
+
+  <div class="post-list-container">
+    {% include articlelist_list.html posts=paginator.posts %}
+    {% include pagination.html paginator=paginator prefix=page.paginate.category  %}
+  </div>
+</main>
