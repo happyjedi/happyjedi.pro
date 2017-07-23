@@ -1,7 +1,5 @@
-# require 'rack/jekyll'
-# require 'yaml'
-
-# run Rack::Jekyll.new
+require 'rack/jekyll'
+require 'yaml'
 
 require 'acme_challenge'
 require 'rack/robotz'
@@ -63,3 +61,5 @@ use Rack::TryStatic,
 run lambda { |env|
   [404, { 'Content-Type' => 'text/html' }, File.open('build/404.html', File::RDONLY)]
 }
+
+run Rack::Jekyll.new

@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.3.1'
+ruby '2.4.1'
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -12,8 +12,8 @@ gem "jekyll"
 
 
 gem 'kramdown'
-gem 'bourbon'
-gem 'neat'
+gem 'bourbon', '~>4.2.0'
+gem 'neat', '~>1.7.1'
 gem 'jekyll-assets'
 gem 'execjs'
 gem 'yui-compressor'
@@ -29,11 +29,11 @@ gem 'octopress-paginate'
 # gem "rack-jekyll"
 
 # Routing Layer
-gem 'rack-rewrite', '~> 1.5.0'
-gem 'rack-contrib', '~> 1.4'
-gem 'acme_challenge', '~> 0.1'
-gem 'rack-robotz', '~> 0.0'
-gem 'rack-anystatus', '~> 0.1'
+gem 'rack-rewrite'
+gem 'rack-contrib'
+gem 'acme_challenge'
+gem 'rack-robotz'
+gem 'rack-anystatus'
 
 # for generating static pages during deploy (necessary because Heroku provides a read-only filesystem)
 gem 'rake'
@@ -48,7 +48,7 @@ gem 'rake'
 
 # Deployment
 # for serving rack app
-gem 'puma', '~> 3.6'
+gem 'puma'
 
 # If you have any plugins, put them here!
 # group :jekyll_plugins do

@@ -59,7 +59,7 @@ kramdown:
   parse_span_html: false
   parse_block_html: false
 
-gems:
+plugins:
   - bourbon
   - neat
   - jekyll-assets
