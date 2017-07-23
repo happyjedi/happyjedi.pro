@@ -23,11 +23,11 @@ opengraph:
 header: ESP_014353_1685_desktop
 time: 2017-07-22
 
-static_path: '../assets'
-styles_path: '../assets'
-scripts_path: '../assets'
+static_path: 'http://happyjedi.pro/assets/'
+styles_path: 'http://happyjedi.pro/assets/'
+scripts_path: 'http://happyjedi.pro/assets/'
 
-img:
+imgix:
   main_images: http://happyjedi.pro/assets/
   metadata_images: http://happyjedi.pro/assets/
 

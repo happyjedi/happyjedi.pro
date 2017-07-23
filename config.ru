@@ -1,5 +1,5 @@
-require 'rack/jekyll'
-require 'yaml'
+# require 'rack/jekyll'
+# require 'yaml'
 
 require 'acme_challenge'
 require 'rack/robotz'
@@ -62,4 +62,4 @@ run lambda { |env|
   [404, { 'Content-Type' => 'text/html' }, File.open('build/404.html', File::RDONLY)]
 }
 
-run Rack::Jekyll.new
+#run Rack::Jekyll.new
