@@ -1,0 +1,5 @@
+<section class="articlelist thumbs">
+  {% for post in include.posts %}
+    {% include article_with_thumb.html post=post %}
+  {% endfor %}
+</section>

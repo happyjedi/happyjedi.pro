@@ -1,0 +1,27 @@
+<ul><!--
+--><li>
+    <a {% if "/index.html" == page.url %} class="current_page_item" {% endif %} href="/">
+      Home<br />
+      <span>Who &amp; What</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/development/index.html" == page.url %} class="current_page_item" {% endif %} href="/development">
+      Development<br />
+      <span>Guides, Sources &amp; Technologies</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/travels/index.html" == page.url %} class="current_page_item" {% endif %} href="/travels">
+      Travels<br />
+      <span>Travels to countries and cities</span>
+    </a>
+  </li><!--
+--><li>
+    <a {% if "/notes/index.html" == page.url %} class="current_page_item" {% endif %} href="/notes">
+      Notes<br />
+      <span>Ideas, Bookmarks &amp; Other</span>
+    </a>
+  </li>
+
+</ul>
