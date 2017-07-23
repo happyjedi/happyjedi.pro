@@ -1,0 +1,48 @@
+---
+title: "Software Developer and Traveler"
+footer_related_posts: false
+---
+
+<main id="landing">
+  <div id="intro" class="image imgix-fluid-bg" data-src="{{ site.imgix.metadata_images }}{{ site.header }}.jpg">
+    <span>Hi there, I'm Victor Vinogradov</span>
+    <span>I'm a software developer, entrepreneur and traveler</span>
+  </div>
+
+  <div id="about">
+    <section>
+      <header>
+        <h1>Software Developer</h1>
+      </header>
+      <p>Lorem ipsum</p>
+      <p>For example, you can find the source-code for this website in it's <a href="http://github.com/happyjedi/happyjedi.pro" title="Source code for happyjedi.pro">open–source repository</a>. </p>
+    </section>
+    <section>
+      <header>
+        <h1>Traveler</h1>
+      </header>
+      <p>Lorem ipsum. </p>
+      <p>Lorem ipsum.</p>
+    </section>
+
+    <section>
+      <header>
+        <h1>Entrepreneur</h1>
+      </header>
+      <p> Lorem ipsum.</p>
+      <p>Lorem ipsum. It's these stories that populate my <em><a href="/travels" title="Travels to countries and cities">travel</a></em> pages.
+    </section>
+
+
+  </div>
+
+  <section id="posts" class="articlelist thumbs">
+    {% for post in site.categories.development limit:2 %}
+      {% include article_with_thumb.html post=post %}
+    {% endfor %}
+
+    {% for post in site.categories.notes limit:2 %}
+      {% include article_with_thumb.html post=site.categories.notes.first %}
+    {% endfor %}
+  </section>
+</main>
