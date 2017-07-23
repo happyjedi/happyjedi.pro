@@ -1,0 +1,23 @@
+---
+layout: feed
+---
+    <title>Development, Notes and Travels - Victor Vinogradov</title>
+    <link href="http://happyjedi.pro/feed/" rel="self"/>
+    <link href="http://happyjedi.pro/"/>
+
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://happyjedi.pro/</id>
+    <author>
+      <name>Victor Vinogradov</name>
+      <email>happy.jedi.g@gmail.com</email>
+    </author>
+
+    {% for post in site.posts %}
+      <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://happyjedi.pro{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://happyjedi.pro{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+      </entry>
+    {% endfor %}

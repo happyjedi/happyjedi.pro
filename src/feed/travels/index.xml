@@ -1,0 +1,24 @@
+---
+layout: feed
+---
+
+    <title>Travels - Victor Vinogradov</title>
+    <link href="http://happyjedi.pro/feed/travels" rel="self"/>
+    <link href="http://happyjedi.pro/travels"/>
+
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://happyjedi.pro/</id>
+    <author>
+      <name>Victor Vinogradov</name>
+      <email>happy.jedi.g@gmail.com</email>
+    </author>
+
+    {% for post in site.categories.travels %}
+      <entry>
+        <title>{{ post.title }}</title>
+        <link href="http://happyjedi.pro{{ post.url }}"/>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>http://happyjedi.pro{{ post.id }}</id>
+        <content type="html">{{ post.content | xml_escape }}</content>
+      </entry>
+    {% endfor %}
