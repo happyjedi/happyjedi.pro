@@ -40,6 +40,8 @@ GEM
       pathutil (>= 0.8)
       rack (~> 1.6)
       sprockets (~> 3.3, < 3.8)
+    jekyll-data (1.0.0)
+      jekyll (~> 3.3)
     jekyll-newrelic (0.1.2)
       jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
@@ -104,6 +106,7 @@ DEPENDENCIES
   jekyll
   jekyll-archives
   jekyll-assets
+  jekyll-data
   jekyll-newrelic
   jekyll-redirect-from
   jekyll-sitemap

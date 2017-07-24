@@ -114,4 +114,4 @@ mapbox:
 
 newrelic:
   licenseKey: <%= ENV['NEW_RELIC_LICENSE_KEY'] %>
-  applicationID: "app73095201" # Use the actual applicationID
+  applicationID: "app73095201"
