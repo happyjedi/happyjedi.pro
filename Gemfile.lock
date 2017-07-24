@@ -57,6 +57,7 @@ GEM
     neat (1.7.4)
       bourbon (>= 4.0)
       sass (>= 3.3)
+    newrelic_rpm (4.2.0.334)
     octopress-hooks (2.6.2)
       jekyll (>= 2.0)
     octopress-paginate (1.2.0)
@@ -105,6 +106,7 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown
   neat (~> 1.7.1)
+  newrelic_rpm
   octopress-paginate
   puma
   rack-anystatus
