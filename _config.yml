@@ -68,6 +68,7 @@ plugins:
   - rouge
   - jekyll-redirect-from
   - octopress-paginate
+  - jekyll-newrelic
 
 assets:
   sources:
@@ -111,3 +112,6 @@ mapbox:
   id_prefix: happyjedi.
   access_token: pk.eyJ1IjoiaGFwcHlqZWRpIiwiYSI6ImNqNWZsbmxodTBoejEycG8xNmpybDJrdm8ifQ.BEBjJ6bmSZ3HPjKP1suprA
 
+newrelic:
+  licenseKey: <%= ENV['NEW_RELIC_LICENSE_KEY'] %>
+  applicationID: "app73095201" # Use the actual applicationID

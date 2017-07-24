@@ -36,6 +36,7 @@ gem 'rack-robotz'
 gem 'rack-anystatus'
 
 gem 'newrelic_rpm'
+gem 'jekyll-newrelic'
 
 # for generating static pages during deploy (necessary because Heroku provides a read-only filesystem)
 gem 'rake'
