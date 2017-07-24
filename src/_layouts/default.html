@@ -5,7 +5,7 @@ layout: main
 <main>
 {% if page.banner %}
   <article class="image">
-  <div class="image imgix-fluid-bg" data-src="{{ site.imgix.metadata_images }}{{ page.categories | join: "/" }}/{{ page.name }}/{{ page.banner }}.jpg"></div>
+  <div class="image imgix-fluid-bg" data-src="{{ site.imgix.main_images }}{{ page.categories | join: "/" }}/{{ page.name }}/{{ page.banner }}.jpg"></div>
 {% else %}
   <article>
 {% endif %}
