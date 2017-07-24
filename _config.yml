@@ -113,5 +113,5 @@ mapbox:
   access_token: pk.eyJ1IjoiaGFwcHlqZWRpIiwiYSI6ImNqNWZsbmxodTBoejEycG8xNmpybDJrdm8ifQ.BEBjJ6bmSZ3HPjKP1suprA
 
 newrelic:
-  licenseKey: <%= ENV['NEW_RELIC_LICENSE_KEY'] %>
+  licenseKey: "c4cce08607"
   applicationID: "60959481"

@@ -90,7 +90,7 @@
       ga('send', 'pageview');
     </script>
 
-    {% include newrelic.html %}
+    {% if jekyll.environment == "production" %}{% include newrelic.html %}{% endif %}
 
     </body>
 

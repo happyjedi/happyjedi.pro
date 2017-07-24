@@ -43,7 +43,7 @@ use Rack::TryStatic,
                   'X-Xss-Protection' => '1; mode=block',
                   'X-Content-Type-Options' => 'nosniff',
                   'X-Frame-Options' => 'DENY',
-                  'Content-Security-Policy' => "default-src 'self'; font-src data: https://fonts.typekit.net https://use.typekit.net; img-src 'self' http://happyjedi.pro https://p.typekit.net https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://use.typekit.net; script-src 'self' 'unsafe-inline' https://use.typekit.net https://www.google-analytics.com; child-src https://a.tiles.mapbox.com; frame-src https://a.tiles.mapbox.com;"
+                  'Content-Security-Policy' => "default-src 'self'; font-src data: https://fonts.typekit.net https://use.typekit.net; img-src 'self' http://happyjedi.pro https://p.typekit.net https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://use.typekit.net; script-src 'self' 'unsafe-inline' https://use.typekit.net https://www.google-analytics.com https://js-agent.newrelic.com https://bam.nr-data.net; child-src https://a.tiles.mapbox.com; frame-src https://a.tiles.mapbox.com;"
               }],
               [['html'], { 'Content-Type' => 'text/html; charset=utf-8'}],
               [['css'], { 'Content-Type' => 'text/css'}],
