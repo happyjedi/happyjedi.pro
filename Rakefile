@@ -24,7 +24,7 @@ task :deploy do
   jekyll "build"
 end
 
-namespace :assets do
+namespace :_assets do
   desc "Rake task that Heroku runs to build static assets by defauly. "
   task :precompile => :deploy
 end

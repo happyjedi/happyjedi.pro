@@ -22,7 +22,8 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-{% figure narrow %}
+{% figure narrow %}  
+  
   {% picture src: PIA19070_desktop, alt: Mars landscape %}
   {% figcaption %}Mars landscape.{% endfigcaption %}
 {% endfigure %}

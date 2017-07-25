@@ -55,6 +55,7 @@ exclude:
   - vendor
   - Procile
   - config.ru
+  - .asset-cache
 
 kramdown:
   parse_span_html: false
@@ -64,6 +65,7 @@ plugins:
   - bourbon
   - neat
   - jekyll-archives
+  - jekyll-assets
   - jekyll-sitemap
   - rouge
   - jekyll-redirect-from
@@ -78,6 +80,26 @@ plugins:
 #  css_compressor: yui
 #  debug: false
 #  baseurl: http://happyjedi.pro
+
+assets:
+  autowrite: true
+  prefix: "/assets"
+  digest: true
+  assets:
+    - "*.jpg"
+  sources:
+    - _assets/css
+    - _assets/fonts
+    - _assets/images
+    - _assets/images/development
+    - _assets/images/notes
+    - _assets/images/travels
+    - _assets/js
+    - _assets
+  js_compressor: yui
+  css_compressor: yui
+  debug: false
+  baseurl: http://happyjedi.pro
 
 defaults:
   - scope:

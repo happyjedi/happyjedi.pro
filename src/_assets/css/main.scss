@@ -19,5 +19,6 @@ $navigation-single-row: 1000px;
 $navigation-with-picture: 1050px;
 
 @import "spacetm";
-@import "font-awesome/font-awesome";
+@import 'font-awesome-sprockets';
+@import "font-awesome";
 

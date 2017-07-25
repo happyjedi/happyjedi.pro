@@ -6,3 +6,4 @@ _site
 .rbenv-gemsets
 build
 
+/src/.asset-cache/
