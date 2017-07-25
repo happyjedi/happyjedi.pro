@@ -18,6 +18,8 @@ GEM
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
     ffi (1.9.18)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.5.1)
       addressable (~> 2.4)
@@ -101,6 +103,7 @@ DEPENDENCIES
   bourbon (~> 4.2.0)
   coffee-script
   execjs
+  font-awesome-sass
   jekyll
   jekyll-archives
   jekyll-assets

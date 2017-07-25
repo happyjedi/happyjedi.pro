@@ -38,6 +38,9 @@ gem 'rack-anystatus'
 gem 'newrelic_rpm'
 gem 'jekyll-newrelic'
 
+gem 'font-awesome-sass'
+
+
 # for generating static pages during deploy (necessary because Heroku provides a read-only filesystem)
 gem 'rake'
 
