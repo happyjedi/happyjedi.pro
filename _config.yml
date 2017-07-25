@@ -5,7 +5,7 @@ future: false
 timezone: Europe/Moscow
 lsi: false
 markdown: kramdown
-baseurl: "/"
+baseurl: ""
 
 source: src
 destination: build
@@ -70,14 +70,14 @@ plugins:
   - octopress-paginate
   - jekyll-newrelic
 
-assets:
-  sources:
-    - _scripts
-    - _styles
-  js_compressor: yui
-  css_compressor: yui
-  debug: false
-  baseurl: http://happyjedi.pro
+#assets:
+#  sources:
+#    - _scripts
+#    - _styles
+#  js_compressor: yui
+#  css_compressor: yui
+#  debug: false
+#  baseurl: http://happyjedi.pro
 
 defaults:
   - scope:
