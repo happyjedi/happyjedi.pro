@@ -9,15 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
 
-    {% stylesheet main %}
+    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
     {% if page.categories.first == 'development' %}
-      {% stylesheet code %}
+      <link rel="stylesheet" href="{{ "css/code.css" | prepend: site.baseurl }}">
     {% endif %}
 
-    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="/feed/notes/">
-    <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="/feed/travels">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ "/feed/index.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="{{ "/feed/notes/index.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="{{ "/feed/travels/index.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Development Feed" href="{{ "/feed/development/index.xml" | relative_url }}">
 
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:site_name" content="{{ site.name }}" />

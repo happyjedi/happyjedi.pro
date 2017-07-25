@@ -18,16 +18,6 @@ $navigation-full-width: 815px;
 $navigation-single-row: 1000px;
 $navigation-with-picture: 1050px;
 
-@import "mixins";
-@import "reset";
-@import "bourbon";
-@import "neat";
-@import "global";
-@import "header";
-@import "content";
-@import "footer";
-@import "landing";
-@import "post-listing";
-@import "paginate";
-@import "series";
-@import "font-awesome";
+@import "spacetm";
+@import "font-awesome/font-awesome";
+
