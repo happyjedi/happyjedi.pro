@@ -66,49 +66,15 @@ aside.more_like_this {
   }
 }
 
-aside.elsewhere_on_the_web {
-  ul {
-    @include row(table);
-    @include span-columns(10);
-
-    @include media($tablet) {
-      @include span-columns(8);
-    }
+.socials {
+  .social {
+    margin-left: 5px;
+    margin-right: 5px;
   }
-
   a {
-    display: block;
-    height: 100%;
-  }
-
-  li {
-    @include span-columns(6);
-
-    height: 70px;
-    background-repeat: no-repeat;
-    background-size: 140px auto;
-    background-image: url("#{$static_url}/style_images/social-icons-sprite.png");
-
-    @media #{$retina} {
-      background-image: url("#{$static_url}/style_images/social-icons-sprite@2x.png");
-    }
-
-    list-style: none;
-
-    text-indent: 1000000%;
-
-    display: block;
-    float:left;
-    margin: 0;
-    padding: 0;
-
-    @include media($tablet) {
-      @include span-columns(4);
-    }
-
-    @include media($desktop) {
-      @include span-columns(2);
-      @include reset-display;
+    &:hover, &:focus, &:active {
+      color: #D39C4A;
+      text-decoration: none;
     }
   }
 
@@ -147,6 +113,8 @@ aside.elsewhere_on_the_web {
     background-color: #55acee;
     background-color: rgb(85,172,238);
   }
+
+
 }
 
 body > footer {
