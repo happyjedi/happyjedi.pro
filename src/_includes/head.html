@@ -16,11 +16,10 @@
       {% css code %}
     {% endif %}
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="{{ "/feed/index.xml" | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="{{ "/feed/notes/index.xml" | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="{{ "/feed/travels/index.xml" | relative_url }}">
-    <link rel="alternate" type="application/rss+xml" title="Development Feed" href="{{ "/feed/development/index.xml" | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="/feed/notes/">
+    <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="/feed/travels">
+    <link rel="alternate" type="application/rss+xml" title="Development Feed" href="/feed/development">
 
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:site_name" content="{{ site.name }}" />
