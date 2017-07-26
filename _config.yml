@@ -84,18 +84,18 @@ plugins:
 assets:
   autowrite: true
   prefix: "/assets"
-  digest: true
+  digest: false
   assets:
     - "*.jpg"
   sources:
     - _assets/css
     - _assets/fonts
     - _assets/images
-    - _assets/images/development
-    - _assets/images/notes
-    - _assets/images/travels
+#    - _assets/images/development
+#    - _assets/images/notes
+#    - _assets/images/travels
     - _assets/js
-    - _assets
+#    - _assets
   js_compressor: yui
   css_compressor: yui
   debug: false
