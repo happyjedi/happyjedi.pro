@@ -16,6 +16,9 @@ layout: main
         <span>
           {% if page.is_post %}
             <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
+            {% if page.updated %}
+              &middot;<strong>Updated:</strong> {{ page.updated | date: "%e %B %Y" }}
+            {% endif %}
           {% else %}
             <strong>Last Updated:</strong> {{ page.date | date: "%e %B %Y" }}
           {% endif %}
