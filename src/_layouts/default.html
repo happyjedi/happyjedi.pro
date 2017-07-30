@@ -12,7 +12,7 @@ layout: main
     <header>
       <h1>{{ page.title }}</h1>
 
-      <div class="meta">
+      <div class="meta socials">
         <span>
           {% if page.is_post %}
             <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
@@ -26,8 +26,11 @@ layout: main
             {% endif %}
             <a href="/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
           {% endfor %}
+          &middot; {% include share_article.html %}
         </span>
       </div>
+
+
 
       <p>{{ page.excerpt }}</p>
     </header>
