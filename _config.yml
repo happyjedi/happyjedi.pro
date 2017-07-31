@@ -12,6 +12,7 @@ destination: build
 
 permalink: /:categories/:year/:month/:title
 name: HappyJedi's blog
+author: Victor Vinogradov
 description: "I'm a software developer, entrepreneur and traveller"
 email: 'happy.jedi.g@gmail.com'
 url: 'http://happyjedi.pro'
@@ -20,7 +21,7 @@ twitter_username: HappyJedi
 opengraph:
   page: https://www.facebook.com/profile.php?id=100011351259791
   personal: https://www.facebook.com/profile.php?id=100011351259791
-  image: jedi
+  image: apple-touch-icon
 
 header: Mars_1920x1200
 time: 2017-07-22

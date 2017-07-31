@@ -1,23 +1,23 @@
 ---
 layout: feed
 ---
-    <title>Development - Victor Vinogradov</title>
-    <link href="http://happyjedi.pro/feed/development/" rel="self"/>
-    <link href="http://happyjedi.pro/development/"/>
+    <title>Development - {{ site.name }}</title>
+    <link href="{{ site.url }}/feed/development/" rel="self"/>
+    <link href="{{ site.url }}/development/"/>
 
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://happyjedi.pro/</id>
+    <id>{{ site.url }}</id>
     <author>
-      <name>Victor Vinogradov</name>
-      <email>happy.jedi.g@happyjedi.pro</email>
+      <name>{{ site.author }}</name>
+      <email>{{ site.email }}</email>
     </author>
 
     {% for post in site.categories.development %}
       <entry>
         <title>{{ post.title }}</title>
-        <link href="http://happyjedi.pro{{ post.url }}"/>
+        <link href="{{ site.url }}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://happyjedi.pro{{ post.id }}</id>
+        <id>{{ site.url }}{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
       </entry>
     {% endfor %}

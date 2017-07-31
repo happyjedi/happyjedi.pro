@@ -1,23 +1,23 @@
 ---
 layout: feed
 ---
-    <title>Development, Notes and Travels - Victor Vinogradov</title>
-    <link href="http://happyjedi.pro/feed/" rel="self"/>
-    <link href="http://happyjedi.pro/"/>
+    <title>Development, Notes and Travels - {{ site.name }}</title>
+    <link href="{{ site.url }}/feed/" rel="self"/>
+    <link href="{{ site.url }}"/>
 
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://happyjedi.pro/</id>
+    <id>{{ site.url }}</id>
     <author>
-      <name>Victor Vinogradov</name>
-      <email>happy.jedi.g@gmail.com</email>
+      <name>{{ site.author }}</name>
+      <email>{{ site.email }}</email>
     </author>
 
     {% for post in site.posts %}
       <entry>
         <title>{{ post.title }}</title>
-        <link href="http://happyjedi.pro{{ post.url }}"/>
+        <link href="{{ site.url }}{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>http://happyjedi.pro{{ post.id }}</id>
+        <id>{{ site.url }}{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>
       </entry>
     {% endfor %}
