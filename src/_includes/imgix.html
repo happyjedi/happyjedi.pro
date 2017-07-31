@@ -1,0 +1,34 @@
+<script>
+  imgix.onready(function() {
+    imgix.fluid({
+      lazyLoad: true,
+      lazyLoadOffsetVertical: 500,
+      pixelStep: 100,
+      debounce: 200,
+      updateOnResize: true,
+      updateOnResizeDown: false,
+      updateOnPinchZoom: false,
+      onChangeParamOverride: function(width, height, options, element) {
+        if (element.attributes.height !== undefined)
+          options.h = parseInt(element.attributes.height.value)
+
+        options.auto = 'format';
+        return options;
+      }
+    });
+  });
+
+  imgix.onready(function() {
+    imgix.fluid({
+      fluidClass: 'imgix-fluid-bg',
+      updateOnResizeDown: true,
+      updateOnPinchZoom: true,
+      pixelStep: 100,
+      autoInsertCSSBestPractices: true,
+      onChangeParamOverride: function(width, height, options, element) {
+        options.auto = 'format';
+        return options;
+      }
+    });
+  });
+</script>
