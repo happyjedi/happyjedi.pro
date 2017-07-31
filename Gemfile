@@ -10,7 +10,6 @@ ruby '2.4.1'
 # Happy Jekylling!
 gem "jekyll"
 
-
 gem 'kramdown'
 gem 'bourbon', '~>4.2.0'
 gem 'neat', '~>1.7.1'
@@ -21,50 +20,27 @@ gem 'sass'
 gem 'coffee-script'
 gem 'jekyll-archives'
 gem 'jekyll-sitemap'
+gem 'jekyll-feed', '~> 0.6'
 gem 'rouge'
 gem 'jekyll-redirect-from'
 gem 'octopress-paginate'
+
+gem 'font-awesome-sass'
 
 # for transforming Jekyll app into rack app
 # gem "rack-jekyll"
 
 # Routing Layer
-gem 'rack-rewrite'
 gem 'rack-contrib'
-gem 'acme_challenge'
 gem 'rack-robotz'
 gem 'rack-anystatus'
 
 gem 'newrelic_rpm'
 gem 'jekyll-newrelic'
 
-gem 'font-awesome-sass'
-
-
 # for generating static pages during deploy (necessary because Heroku provides a read-only filesystem)
 gem 'rake'
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-# gem "minima", "~> 2.0"
-
-
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
 
 # Deployment
 # for serving rack app
 gem 'puma'
-
-# If you have any plugins, put them here!
-# group :jekyll_plugins do
-#    gem "jekyll-feed", "~> 0.6"
-# end
-
-
-
-
-
-
-
-
