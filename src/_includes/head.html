@@ -1,48 +1,71 @@
-<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="" />
+  <title>{% if page.title %}{{ page.title }}{% else %}Software engineer, entrepreneur and traveler{% endif %} - {{ site.name }}</title>
 
-<html>
 
-  <head>
-    <title>{{ page.title }} &middot; {{ site.name }}</title>
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/android-chrome-192x192.png?v=kPxPMG5RO0" sizes="192x192">
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/android-chrome-512x512.png?v=kPxPMG5RO0" sizes="512x512">
+  <link rel="manifest" href="{{site.baseurl}}/manifest.json?v=kPxPMG5RO0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.excerpt.blank? %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
+  <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/apple-touch-icon-57x57.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/apple-touch-icon-60x60.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/apple-touch-icon-72x72.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/apple-touch-icon-76x76.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/apple-touch-icon-114x114.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/apple-touch-icon-120x120.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/apple-touch-icon-144x144.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/apple-touch-icon-152x152.png?v=kPxPMG5RO0">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/apple-touch-icon.png?v=kPxPMG5RO0">
 
-    {% css main %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico?v=kPxPMG5RO0">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/favicon-16x16.png?v=kPxPMG5RO0">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/favicon-32x32.png?v=kPxPMG5RO0">
 
-    {% if page.categories.first == 'development' %}
-      {% css code %}
-    {% endif %}
+  <link rel="mask-icon" href="{{site.baseurl}}/safari-pinned-tab.svg?v=kPxPMG5RO0" color="#5bbad5">
 
-    <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="/feed/notes/">
-    <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="/feed/travels">
-    <link rel="alternate" type="application/rss+xml" title="Development Feed" href="/feed/development">
+  <link rel="mstile" sizes="70x70" href="{{site.baseurl}}/mstile-70x70.png"/>
+  <link rel="mstile" sizes="150x150" href="{{site.baseurl}}/mstile-150x150.png"/>
+  <link rel="mstile" sizes="310x310" href="{{site.baseurl}}/mstile-310x310.png"/>
 
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:locale" content="en_GB" />
-    <meta property="og:image" content="{{ site.imgix.metadata_images }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}.jpg?w=700%26h=467" />
-    <meta property="og:image:width" content="700" />
-    <meta property="og:image:height" content="467" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="article:author" content="{{ site.opengraph.personal }}" />
-    <meta property="article:publisher" content="{{ site.opengraph.page }}" />
-    {{ page.header}}
-  </head>
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="{{site.baseurl}}/mstile-150x150.png">
+  <meta name="theme-color" content="#ffffff">
 
-  <body>
-    <header>
-      <a href="/" title="Home">
-        <h1>Happy Jedi</h1>
-        <span class="toggle">Show Nav</span>
-      </a>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-      <nav>
-        {% include pages.html %}
-      </nav>
-    </header>
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="/feed/notes/">
+  <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="/feed/travels">
+  <link rel="alternate" type="application/rss+xml" title="Development Feed" href="/feed/development">
+
+  <style type="text/css">
+    {% css blogtheme_crit %}
+  </style>
+
+  <noscript><link href="{{ site.baseurl }}/css/main.css" rel="stylesheet"></noscript>
+
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+  <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:image" content="{{ site.imgix.metadata_images }}{% if page.banner != nil %}{{ page.banner }}{% else %}{{ site.opengraph.image }}{% endif %}.jpg?w=700%26h=467" />
+  <meta property="og:image:width" content="700" />
+  <meta property="og:image:height" content="467" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+  <meta property="article:author" content="{{ site.opengraph.personal }}" />
+  <meta property="article:publisher" content="{{ site.opengraph.page }}" />
+
+</head>
+
+
+
+
+
+
+
