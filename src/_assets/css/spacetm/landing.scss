@@ -22,11 +22,11 @@
       text-shadow: #000 1px 1px 0, #000 -1px -1px 0,
       #000 -1px 1px 0, #000 1px -1px 0;
 
-      &:first-of-type {
-        @include rem-fallback(font-size, 3);
-        @include rem-fallback(padding, 8, 0);
-        font-family: $font-sans;
-      }
+      //&:first-of-type {
+      //  @include rem-fallback(font-size, 3);
+      //  @include rem-fallback(padding, 8, 0);
+      //  font-family: $font-sans;
+      //}
 
       &:last-of-type {
         @include rem-fallback(padding-bottom, 10);

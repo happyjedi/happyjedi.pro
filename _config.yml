@@ -11,7 +11,7 @@ source: src
 destination: build
 
 permalink: /:categories/:year/:month/:title
-name: Victor Vinogradov Software developer
+name: Victor Vinogradov Software engineer
 description: "I'm a software developer, entrepreneur and traveller"
 email: 'happy.jedi.g@gmail.com'
 url: 'http://happyjedi.pro'
