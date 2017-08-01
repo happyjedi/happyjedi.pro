@@ -1,12 +1,13 @@
-<section class="articlelist list">
+<ul class="blog-posts">
   {% for post in include.posts %}
-    <article>
-      <header>
-        <h1><a href="{{ post.base_url }}{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></h1>
-        <span><strong>Published:</strong> {{ post.date | date: "%e %B %Y" }}</span>
-      </header>
-
-      <p>{{ post.excerpt }}</p>
-    </article>
+  <li class="highlight highlight--blog">
+    <a href="{{ site.baseurl }}{{ post.url }}" title="View {{ post.title }}">
+      <h4>{{ post.title }}</h4>
+      <span class="post-date"><strong>Published:</strong> {{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if post.author %}<span class="post-author">By {{ post.author }}</span>{% endif %}
+      {{ post.excerpt }}
+    </a>
+    <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+  </li>
   {% endfor %}
-</section>
+</ul>

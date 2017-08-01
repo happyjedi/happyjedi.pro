@@ -1,13 +1,14 @@
 {% if include.paginator.total_pages > 1 %}
-  <nav class="pageinate">
+  <div class="paginate">
+    <hr>
     {% for page in (1..include.paginator.total_pages) %}
       {% if page == include.paginator.page %}
-        <strong>{{ page }}</strong>
+        <a class="button current">{{ page }}</a>
       {% elsif page == 1 %}
-        <a href="/{{ include.prefix }}/">{{ page }}</a>
+        <a href="/{{ include.prefix }}/" class="button">{{ page }}</a>
       {% else %}
-        <a href="/{{ include.prefix }}/{{ page }}">{{ page }}</a>
+        <a href="/{{ include.prefix }}/{{ page }}" class="button">{{ page }}</a>
       {% endif %}
     {% endfor %}
-  </nav>
+  </div>
 {% endif %}

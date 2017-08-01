@@ -1,0 +1,11 @@
+.paginate {
+  text-align: center;
+  hr {
+    margin-top: 1em;
+    margin-bottom: 0;
+  }
+
+  .current {
+    background-color: $light-gray;
+  }
+}
