@@ -1,11 +1,11 @@
 <div class="header-wrapper">
 	<header class="site-header">
-			<a href="/" class="site-logo">
-				<img src="{{site.baseurl}}/apple-touch-icon.png" alt="HappyJedi" />
+			<a href="/" class="site-logo" title="Home">
+				<h1>Happy Jedi</h1>
 			</a>
 		<nav>
 			<ul>
-				<li  {% if page.url contains '/development/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/development">Development</a></li>
+				<li  {% if page.url contains '/articles/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/articles">Articles</a></li>
         <li  {% if page.url contains '/notes/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/notes">Notes</a></li>
 				<li  {% if page.url contains '/about/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
         <li  {% if page.url contains '/projects/' %} class="active"{% endif %}><a href="{{ site.baseurl }}/projects">Projects</a></li>
