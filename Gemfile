@@ -11,8 +11,6 @@ ruby '2.4.1'
 gem "jekyll"
 
 gem 'kramdown'
-gem 'bourbon', '~>4.2.0'
-gem 'neat', '~>1.7.1'
 gem 'jekyll-assets'
 gem 'execjs'
 gem 'yui-compressor'

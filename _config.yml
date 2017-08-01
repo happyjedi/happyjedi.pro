@@ -64,8 +64,6 @@ kramdown:
   parse_block_html: false
 
 plugins:
-  - bourbon
-  - neat
   - jekyll-archives
   - jekyll-assets
   - jekyll-sitemap
