@@ -42,11 +42,12 @@
 
     {% js scripts %}
     {% include imgix.html %}
+    {% include adobe_typekit.html %}
 
 
     {% if jekyll.environment == "production" %}
 
-      {% include adobe_typekit.html %}
+
       {% include google_analytics.html %}
       {% include newrelic.html %}
 

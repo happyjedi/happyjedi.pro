@@ -1,7 +1,7 @@
 nav {
 	background-color: $light-blue;
 	padding-top: .5em;
-	font-family: $sans-serif-condensed;
+	font-family: $sans-serif;
 	ul {
 		display: -webkit-flex;
 		display: flex;
@@ -27,6 +27,8 @@ nav {
 		text-align: center;
 		border-bottom: none;
 		padding-bottom: 10px;
+		margin-right: 5px;
+		white-space: nowrap;
 		&.active a {
 			color: $light-yellow;
 		}
@@ -58,8 +60,12 @@ nav {
 	nav {
 		margin-right: 0;
 		transition: .3s all ease;
+		max-width: 700px;
 		a {
 			font-size: .9em;
+		}
+		ul {
+			max-width: 800px;
 		}
 	}
 }
