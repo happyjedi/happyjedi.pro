@@ -3,3 +3,48 @@ layout: home
 title: "Software engineer, entrepreneur and traveler"
 footer_related_posts: false
 ---
+
+<section class="feature-block-container">
+  <div class="feature-block">
+    <h1>Victor Vinogradov</h1>
+    <h2>Full-stack Ruby on Rails developer</h2>
+</section>
+</div>
+<main>
+  <div class="feature-headshot">
+    <img src="{{site.baseurl}}/assets/ava-small-v2.jpg" srcset="{{site.baseurl}}/assets/ava-v2.jpg 600w,
+      {{site.baseurl}}/assets/ava-small-v2.jpg 200w" sizes="50%" alt="Victor Vinogradov" />
+  </div>
+  <p class="introduction">Hi, I’m Victor, software engineer, entrepreneur and traveler. At current time I'm a full-stack Ruby
+    on Rails developer, working Remotely with different teams around the world. I'm always open to new opportunities and looking for new interesting
+    projects that would change the world. Every project is important for me. I like solving problems for people by making
+    a good product. Feel free to <a href="{{base.url}}projects">browse my work</a>, read my <a href="{{base.url}}articles">latest posts</a>. If you think that I can help you, please <a href="{{base.url}}contact">contact me</a>.</p>
+  <section class="highlight-container">
+    <div class="highlight highlight-articles">
+      <h3>Articles</h3>
+      {% for post in site.categories.articles limit:2 %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h4>{{ post.title }}</h4>
+        {{ post.excerpt }}</a>
+      <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+      {% endfor %}
+      <a class="button" href="{{ site.baseurl }}blog">More Articles</a>
+    </div>
+    <div class="highlight highlight-projects">
+      <h3>Projects</h3>
+
+      <a class="button" href="{{ site.baseurl }}work">More Projects</a>
+    </div>
+    <div class="highlight highlight-articles">
+      <h3>Notes</h3>
+      {% for post in site.categories.notes limit:2 %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h4>{{ post.title }}</h4>
+        {{ post.excerpt }}</a>
+      <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+      {% endfor %}
+      <a class="button" href="{{ site.baseurl }}blog">More Notes</a>
+    </div>
+
+  </section>
+</main>
