@@ -1,13 +1,5 @@
 .header-wrapper {
-	background-image:
-	    linear-gradient(
-	      to right,
-	      $light-blue,
-	      $light-blue 15%,
-	      $light-blue 15%,
-	      $dark-blue 85%,
-	      $dark-blue 85%
-	    );
+	background:  $light-dark;
 }
 
 header {
@@ -17,7 +9,7 @@ header {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding-top: .5em;
-	background-color: $dark-blue;
+	background-color: $dark;
 	a {
 		color: white;
 		text-decoration: none;

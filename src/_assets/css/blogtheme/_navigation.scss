@@ -1,5 +1,5 @@
 nav {
-	background-color: $light-blue;
+	background: $light-dark;
 	padding-top: .5em;
 	font-family: $sans-serif;
 	ul {
@@ -42,7 +42,7 @@ nav {
 
 @media screen and (min-width: 600px) {
 	nav {
-		background-color: $dark-blue;
+		background-color: $dark;
 		position: absolute;
 		width: 80%;
 		padding-top: .85em;
