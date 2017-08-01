@@ -1,7 +1,7 @@
 ---
 layout: feed
 ---
-    <title>Development, Notes and Travels - {{ site.name }}</title>
+    <title>Articles and Notes - {{ site.name }}</title>
     <link href="{{ site.url }}/feed/" rel="self"/>
     <link href="{{ site.url }}"/>
 
