@@ -52,7 +52,7 @@ permalink: /about/
     for example next target is Elixir</p> 
   
    <p><strong> Now I’m looking for a long-term remote work as the full-stack Ruby on 
-     Rails developer, looking for projects that would change the world. 
+     Rails developer, looking for interesting projects that would change the world. 
      And also I'm interesting in relocation from Russia to Canada, USA, 
      Luxembourg or Switzerland.</strong>
    </p> 
@@ -89,7 +89,7 @@ Bachelor's degree of Computer engineering
 title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
 
 * Web & mobile application development
-* I worked as full-stack web-developer at remote full-time position and 
+* I worked as the full-stack web-developer at remote full-time position and 
   was involved in different successful projects with positive feedback
 * Improved performance of existing projects  
 * Technologies: Ruby on Rails, PostgreSQL, JavaScript, JQuery, HAML, SCSS,
