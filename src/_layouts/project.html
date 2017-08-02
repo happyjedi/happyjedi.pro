@@ -11,12 +11,12 @@ layout: default
 	<div class="post">
 	  <article role="article" class="post-content">
 	  <div class="post-thumb-large">
-	  	<img src="../assets/images/{{page.thumbnail}}" alt="{{page.thumbnailalt}}" />
+	  	<img src="../assets/{{page.thumbnail}}" alt="{{page.thumbnailalt}}" />
 	  </div>
 	    {{ content }}
 	  </article>
 	  {% if page.link %}
-	  	<a class="button" href="{{page.link}}">View the Project</a>
+	  	<a class="button" href="{{page.link}}" title="{{page.thumbnailalt}}" target="_blank">View the Project</a>
 	  {% endif %}
 	</div>
 </main>
