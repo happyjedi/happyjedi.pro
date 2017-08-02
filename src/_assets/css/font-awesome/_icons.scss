@@ -787,3 +787,9 @@
 .#{$fa-css-prefix}-superpowers:before { content: $fa-var-superpowers; }
 .#{$fa-css-prefix}-wpexplorer:before { content: $fa-var-wpexplorer; }
 .#{$fa-css-prefix}-meetup:before { content: $fa-var-meetup; }
+
+a.icon-upwork {
+  margin-right: 3px;
+  letter-spacing: -3px;
+  font-family: Arial, Helvetica, sans-serif;
+}

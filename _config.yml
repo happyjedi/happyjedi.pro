@@ -17,6 +17,11 @@ description: "I'm a software developer, entrepreneur and traveller"
 email: 'happy.jedi.g@gmail.com'
 url: 'http://happyjedi.pro'
 twitter_username: HappyJedi
+linkedin: https://www.linkedin.com/in/vinogradovvictor/
+facebook: https://www.facebook.com/profile.php?id=100011351259791
+github_user: happyjedi
+skype: happy.jedi.v
+upwork: https://www.upwork.com/o/profiles/users/_~012e21489bc1a0781d/
 
 opengraph:
   page: https://www.facebook.com/profile.php?id=100011351259791
@@ -107,25 +112,36 @@ defaults:
   - scope:
       path: ''
     values:
-      footer_related_posts: true
+      footer_related_posts: false
       comments: false
 
   - scope:
       path: ''
       type: 'pages'
     values:
-      layout: 'main'
+      layout: 'page'
       is_page: true
       is_post: false
+      footer_related_posts: false
+      comments: false
+
 
   - scope:
       path: ''
       type: 'posts'
     values:
-      layout: 'default'
+      layout: 'post'
       banner_position: 'middle'
       is_page: false
       is_post: true
+      comments: true
+      footer_related_posts: true
+
+# Collections
+
+collections:
+   projects:
+     output: true
 
 mapbox:
   options:

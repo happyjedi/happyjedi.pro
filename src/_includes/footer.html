@@ -27,12 +27,14 @@
     <div class="footer-supplemental">
       <div class="socials">
         <a href="https://twitter.com/{{ site.twitter_username }}" class="social" title="Victor Vinogradov on Twitter" target="_blank" rel="nofollow"><i class="fa fa-twitter-square fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/vinogradovvictor/" class="social" title="Victor Vinogradov on LinkedIn" target="_blank" rel="nofollow"><i class="fa fa-linkedin-square fa-2x"></i></a>
-        <a href="http://github.com/happyjedi" class="social" title="Victor Vinogradov on GitHub" target="_blank" rel="nofollow"><i class="fa fa-github-square fa-2x"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100011351259791" class="social" title="Victor Vinogradov on Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook-official fa-2x"></i></a>
+        <a href="{{ site.linkedin }}" class="social" title="Victor Vinogradov on LinkedIn" target="_blank" rel="nofollow"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="http://github.com/{{ site.github_user }}" class="social" title="Victor Vinogradov on GitHub" target="_blank" rel="nofollow"><i class="fa fa-github-square fa-2x"></i></a>
+        <a href="{{ site.facebook }}" class="social" title="Victor Vinogradov on Facebook" target="_blank" rel="nofollow"><i class="fa fa-facebook-official fa-2x"></i></a>
+        <a href="{{ site.upwork }}" class="social fa icon-upwork fa-2x" title="Victor Vinogradov on Upwork" target="_blank" rel="nofollow"><b>U<i>p</i></b></a>
 
-        <a href="skype:happy.jedi.v?call" class="social left-space" title="Victor Vinogradov on Skype" target="_blank" rel="nofollow"><i class="fa fa-skype fa-2x"></i>&nbsp;happy.jedi.v</a>
-        <a href="mailto:happy.jedi.g@gmail.com" class="social" title="Mail to Victor Vinogradov" ><i class="fa fa-envelope fa-2x"></i>&nbsp;happy.jedi.g@gmail.com</a></li>
+
+        <a href="skype:{{ site.skype }}?call" class="social left-space" title="Victor Vinogradov on Skype" target="_blank" rel="nofollow"><i class="fa fa-skype fa-2x"></i>&nbsp;happy.jedi.v</a>
+        <a href="mailto:{{ site.email }}" class="social" title="Mail to Victor Vinogradov" ><i class="fa fa-envelope fa-2x"></i>&nbsp;happy.jedi.g@gmail.com</a></li>
       </div>
       <p>Powered by <a href="http://jekyllrb.com" title="Jekyll Static Site Generator" target="_blank" rel="nofollow">Jekyll</a> and hosted on <a href="https://heroku.com" target="_blank" title="Cloud Application Platform | Heroku" rel="nofollow">Heroku</a>. </p>
       <span>Copyright © {{ site.time | date: '%Y' }} {{ site.author }} @HappyJedi. For licence details, see <a href="https://github.com/happyjedi/happyjedi.pro" title="happyjedi.pro GitHub repository" target="_blank" rel="nofollow">the GitHub repository</a>. </span>
