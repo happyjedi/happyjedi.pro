@@ -38,7 +38,15 @@ footer_related_posts: false
     </div>
     <div class="highlight highlight-projects">
       <h3>Projects</h3>
-
+      {% assign items = site.projects | sort: 'date' | reverse %}
+      {% for item in items limit:2 %}
+        <div class="project">
+          <a href="{{ site.baseurl }}{{ item.url }}"><img src="assets/{{item.featurethumbnail}}" alt="{{item.thumbnailalt}}" />
+            <h4>{{ item.title }}</h4>
+            <p>{{item.thumbnailalt}}</p>
+          </a>
+        </div>
+      {% endfor %}
       <a class="button" href="{{ site.baseurl }}projects">More Projects</a>
     </div>
     <div class="highlight highlight-articles">
