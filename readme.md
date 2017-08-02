@@ -27,16 +27,6 @@ Other rake tasks are:
 * `typekit:remove_domain` - Removes a domain from a typekit kit whitelist based on your environment.
 * `assets:precompile` - Default task called by the build pipeline. See below for details.
 
-#### Typekit Tasks
-
-The Rake tasks in the `typekit` namespace are used by Heroku as [postdeploy][heroku_postdeploy] and [pr-predestroy][heroku_predestroy] scripts. This allows Heroku to automatically add and remove [Review App][heroku_review] domains from the Typekit kit whitelist. This is achieved by calling into the Typekit API to add and remove the domains. Three environmental variables are required:
-
-* `TYPEKIT_API_AUTH` - This should be a valid [Typekit API Key][typekit_api_key].
-* `TYPEKIT_KIT_ID` - The ID of the kit you want to update (this is supplied on the settings page for the kit).
-* `HEROKU_APP_NAME` - This is automatically supplied by Heroku, and is used to build the app domain.
-
-When these three variables are present the Rake tasks can be invoked.
-
 ### Deployment
 
 Deployment is completely automated, and happens via a [Heroku pipeline][heroku_pipeline]. Anything that goes to the `master` branch is automatically deployed to staging. I use [Heroku Review Apps][heroku_review] to automatically stage branches to help with gaining feedback from friends, family, and colleagues.
