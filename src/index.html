@@ -23,10 +23,10 @@ footer_related_posts: false
     <div class="highlight highlight-articles">
       <h3>Articles</h3>
       {% for post in site.categories.articles limit:2 %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h4>{{ post.title }}</h4>
-        {{ post.excerpt }}</a>
-      <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <h4>{{ post.title }}</h4>
+          {{ post.excerpt }}</a>
+        <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
       {% endfor %}
       <a class="button" href="{{ site.baseurl }}articles">More Articles</a>
     </div>
@@ -38,10 +38,10 @@ footer_related_posts: false
     <div class="highlight highlight-articles">
       <h3>Notes</h3>
       {% for post in site.categories.notes limit:2 %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h4>{{ post.title }}</h4>
-        {{ post.excerpt }}</a>
-      <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <h4>{{ post.title }}</h4>
+          {{ post.excerpt }}</a>
+        <a class="read-more-link" href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
       {% endfor %}
       <a class="button" href="{{ site.baseurl }}notes">More Notes</a>
     </div>
