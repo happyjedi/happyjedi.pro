@@ -3,6 +3,7 @@ layout: page
 title: About Victor Vinogradov
 permalink: /about/
 ---
+<p><a href="../assets/victor-vinogradov-cv.pdf" title="victor-vinogradov-cv" target="_blank">Download CV in PDF</a></p>
 
 <div class="introduction">
   <p>Hello.

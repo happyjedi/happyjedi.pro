@@ -9,19 +9,24 @@ namespace :dev do
   desc "Run Jekyll with future posts and drafts, then automatically reload when saved."
   task :watch do
     clean
-    jekyll "serve --config _config.yml,_config_dev.yml --watch --future --drafts"
+    jekyll "serve --config _config.yml,_config_dev.yml --watch --future --drafts -t"
   end
 
   desc "Build the Jekyll site using the development configuration."
   task :build do
     clean
-    jekyll "build --config _config.yml,_config_dev.yml"
+    jekyll "build --config _config.yml,_config_dev.yml -t"
   end
 end
 
 desc "Build the site with the production configuration."
 task :deploy do
   jekyll "build"
+end
+
+desc "Convert markdown files to PDF"
+task :topdf do
+  system("bundle exec gimli -f src/about.md -y -s src/_assets/css/master.scss -w '--page-size Letter --header-left \"Victor Vinogradov - Full stack Ruby on Rails developer - Resume\" '") or exit!(1)
 end
 
 namespace :assets do

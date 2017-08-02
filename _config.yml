@@ -95,15 +95,19 @@ assets:
     - "*.jpg"
     - "*.png"
     - "*.ico"
+    - "*.pdf"
   sources:
     - _assets/css
     - _assets/fonts
     - _assets/images
+    - _assets/files
 #    - _assets/images/development
 #    - _assets/images/notes
 #    - _assets/images/travels
     - _assets/js
-#    - _assets
+    - _assets
+    - ..
+
   js_compressor: yui
   css_compressor: yui
   debug: false

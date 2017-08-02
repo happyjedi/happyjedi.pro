@@ -25,6 +25,8 @@ gem 'octopress-paginate'
 
 gem 'font-awesome-sass'
 
+gem 'gimli'
+
 # for transforming Jekyll app into rack app
 # gem "rack-jekyll"
 
