@@ -13,7 +13,7 @@ thumbnail: "defexpro.png"
 featurethumbnail: "defexpro.png"
 thumbnailalt: "DefexPro - Web-system for assessing fire safety of buildings and objects"
 
-published: true
+published: false
 footer_related_posts: true
 
 series: jekyll
