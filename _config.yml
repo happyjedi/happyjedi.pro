@@ -98,11 +98,13 @@ assets:
     - "*.png"
     - "*.ico"
     - "*.pdf"
+    - "*.svg"
   sources:
     - _assets/css
     - _assets/fonts
     - _assets/images
     - _assets/files
+    - _assets/favicons
 #    - _assets/images/development
 #    - _assets/images/notes
 #    - _assets/images/travels
