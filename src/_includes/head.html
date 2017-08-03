@@ -40,28 +40,17 @@
 
   <link rel="alternate" type="application/rss+xml" title="Site Feed" href="/feed/">
   <link rel="alternate" type="application/rss+xml" title="Notes Feed" href="/feed/notes/">
-  <link rel="alternate" type="application/rss+xml" title="Travels Feed" href="/feed/travels">
-  <link rel="alternate" type="application/rss+xml" title="Development Feed" href="/feed/development">
+  <link rel="alternate" type="application/rss+xml" title="Articles Feed" href="/feed/articles">
 
   {% css main %}
 
-  {% if page.categories.first == 'development' %}
+  {% if page.categories.first == 'articles' %}
     {% css code %}
   {% endif %}
-
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:site_name" content="{{ site.name }}" />
-  <meta property="og:description" content="{% if page.excerpt != nil %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:locale" content="en_GB" />
-  <meta property="og:image" content="{{ site.imgix.metadata_images }}{{ site.opengraph.image }}.png?w=180%26h=180" />
-  <meta property="og:image:width" content="180" />
-  <meta property="og:image:height" content="180" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="article:author" content="{{ site.opengraph.personal }}" />
-  <meta property="article:publisher" content="{{ site.opengraph.page }}" />
-
 </head>
+
+
+
 
 
 
