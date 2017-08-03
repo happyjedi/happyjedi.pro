@@ -1,6 +1,6 @@
 <ul class="blog-posts">
   {% for post in include.posts %}
-  <li class="highlight highlight--blog">
+  <li class="highlight-title highlight--blog">
     <a href="{{ site.baseurl }}{{ post.url }}" title="View {{ post.title }}">
       <h4>{{ post.title }}</h4>
       <span class="post-date"><strong>Published:</strong> {{ post.date | date: "%b %-d, %Y" }}</span>

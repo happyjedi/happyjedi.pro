@@ -29,6 +29,30 @@
 	}
 }
 
+figure {
+  figcaption {
+
+    font-style: italic;
+    font-family: $sans-serif;
+    background: transparent;
+
+    text-align: center;
+
+    cite, span {
+      display: block;
+      padding-bottom: .5rem;
+
+      &::before {
+        content: "\00a0\00a0\00a0"
+      }
+    }
+
+    > :first-child::before {
+      content: " – ";
+    }
+  }
+}
+
 .post-date {
 	text-transform: uppercase;
 	display: block;
@@ -40,10 +64,70 @@
 .post-author {
 	text-transform: uppercase;
 	font-size: .9em;
-	margin-bottom: 1.5em;
-	display: block;
+	margin-bottom: .5em;
+	//display: block;
 }
 
 ul.blog-posts {
 	margin: 0;
+}
+
+.highlight {
+  //background-color: #1b1d1e;
+  //color: #f8f8f2;
+  pre {
+    //background-color: #1b1d1e;
+    border: none;
+
+    > code {
+      //background-color: #1b1d1e;
+      border: none;
+    }
+  }
+
+
+  @media screen and (min-width: 700px) {
+    width: 100%;
+    float: inherit;
+    &:before {
+      margin-top: .6em;
+    }
+  }
+}
+
+
+.meta-page-date {
+  font-size: 16px;
+  color: #555555;
+  line-height: 0.8;
+  margin: 0 0 10px;
+}
+
+.meta-post-tags {
+  margin: 0 0 10px;
+}
+
+.meta-post-tag {
+  font-size: 16px;
+  padding: 1px 4px;
+  margin: 0 2px;
+  color: #222222;
+  background: #cccccc;
+  margin-bottom: 10px;
+}
+
+.meta-post-share {
+  margin: 0 0 10px;
+  line-height: 1.5;
+
+  .fa:before
+  {
+    font-size: 21px;
+  }
+}
+
+.solid-code {
+  code {
+    white-space: nowrap;
+  }
 }

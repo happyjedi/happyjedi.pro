@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<div class="feature-block-container feature-block-container--page">
+  <div class="feature-block feature-block--page">
+    <a href="/{{ page.categories | join: '/' }}" class="page-link">See All Posts</a>
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <div class="post-meta socials">
+      <p class="meta-page-date">
+        <strong>Published:</strong> {{ page.date | date: "%e %B %Y" }}
+        {% if page.updated %}
+        &middot;<strong>Updated:</strong> {{ page.updated | date: "%e %B %Y" }}
+        {% endif %}
+        &middot;{% if page.author %}<span class="post-author"> By {{ page.author }}</span>{% endif %}
+      </p>
+
+      <p class="meta-post-tags">
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+          <span class="meta-post-tag"><a href="/tag/{{ tag }}" title="Index for {{ tag }}">{{ tag }}</a></span>
+        {% endfor %}
+      </p>
+
+      {% include share_article.html %}
+
+      {% assign series_posts = site.posts | where:"series",page.series %}
+      {% if page.series %}
+        <section id="series-introduction">
+          <p>This post is part of the {{ series_posts | size | apnumber }} part series <em>{{ site.series[page.series].title }}</em>. To see more from this series <a href="#series-information">check the series index</a>. </p>
+        </section>
+      {% endif %}
+
+    </div>
+
+
+
+
+  </div>
+</div>
+<main>
+  <div class="blog-post">
+
+    {% if page.thumbnail %}
+      <div class="post-thumb-large">
+        <img src="../../../assets/{{page.thumbnail}}" alt="{{page.thumbnailalt}}" />
+      </div>
+    {% endif %}
+
+    <article role="article" class="post-content">
+      {{ content }}
+    </article>
+    <hr>
+    <section>
+      {% if page.series %}
+        <section id="series-summary">
+          <h3 id="series-information">More from the <em>{{ site.series[page.series].title }}</em> series</h3>
+
+          <p>This post is part of the {{ series_posts | size| apnumber }} part series <em>{{ site.series[page.series].title }}</em>. {% if site.series[page.series].complete == false %}This series is not yet complete; the published parts are:{% endif %}</p>
+
+          <ol>
+            {% for post in series_posts reversed %}
+              <li><p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>:</p> <em>{{ post.excerpt }}</em></li>
+            {% endfor %}
+          </ol>
+        </section>
+
+        {% if site.series[page.series].footer %}
+        <section id="series-footer">
+          {% include series_footer_{{ page.series }}.html %}
+        </section>
+        {% endif %}
+      {% endif %}
+
+      {% if page.comments %}
+        {% include disqus.html %}
+      {% endif %}
+    </section>
+
+  </div>
+</main>

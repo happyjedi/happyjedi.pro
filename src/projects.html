@@ -10,7 +10,7 @@ permalink: /projects/
 <ul class="project-posts">
   {% assign items = site.projects | sort: 'date' %}
   {% for item in items reversed %}
-    <li class="highlight">
+    <li class="highlight-title">
       <a href="{{ site.baseurl }}{{ item.url }}">
         <figure class="project-thumb">
           <img src="../assets/{{item.thumbnail}}" />

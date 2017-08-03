@@ -5,15 +5,17 @@ future: false
 timezone: Europe/Moscow
 lsi: false
 markdown: kramdown
+syntax_highlighter: rouge
+highlighter: rouge
 baseurl: ""
 
 source: src
 destination: build
 
-permalink: /:categories/:year/:month/:title
+permalink: /:categories/:title
 name: HappyJedi's blog
 author: Victor Vinogradov
-description: "I'm a software developer, entrepreneur and traveller"
+description: Victor Vinogradov - a software developer, entrepreneur and traveller
 email: 'happy.jedi.g@gmail.com'
 url: 'http://happyjedi.pro'
 twitter_username: HappyJedi
@@ -66,8 +68,8 @@ exclude:
   - .asset-cache
 
 kramdown:
-  parse_span_html: false
-  parse_block_html: false
+  input: GFM
+  syntax_highlighter: rouge
 
 plugins:
   - jekyll-archives

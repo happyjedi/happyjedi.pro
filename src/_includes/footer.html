@@ -1,28 +1,4 @@
 <div class="footer-wrapper">
-  {% if page.footer_related_posts %}
-  <aside class="more_like_this">
-    <section>
-      <h2>More Like This</h2>
-      <dl>
-        {% for post in site.related_posts %}
-        {% if forloop.index <= 2 %}
-        <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-        <dd>{{ post.excerpt }}</dd>
-        {% endif %}
-        {% endfor %}
-      </dl>
-      <dl>
-        {% for post in site.related_posts %}
-        {% if forloop.index >= 3 and forloop.index <= 4 %}
-        <dt><a href="{{ post.url }}" title="View {{ post.title }}">{{ post.title }}</a></dt>
-        <dd>{{ post.excerpt }}</dd>
-        {% endif %}
-        {% endfor %}
-      </dl>
-    </section>
-  </aside>
-  {% endif %}
-
   <footer class="site-footer" role="contentinfo">
     <div class="footer-supplemental">
       <div class="socials">
