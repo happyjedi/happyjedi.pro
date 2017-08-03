@@ -111,10 +111,23 @@ article {
 p a {
 	font-weight: bold;
 	color: $dark-blue;
-	word-break:break-word;
+	word-break: normal;
 	transition: .3s color ease;
 	&:hover, &:focus {
 		color: $light-blue;
+	}
+}
+
+.normal-link a{
+	font-weight: bold;
+	color: $dark-blue;
+	word-break: normal;
+	transition: .3s color ease;
+	&:hover, &:focus {
+		color: $light-blue;
+	}
+	&.active {
+		color: $light-yellow;
 	}
 }
 

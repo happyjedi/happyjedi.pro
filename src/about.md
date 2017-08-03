@@ -99,9 +99,11 @@ title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
 * Extensive DevOps skills and using of UNIX systems (Linux, OS X).
 * I was involved in development of backend, API for applications and CMS 
  systems for this projects:
+ <span class="normal-link">
  <a href="http://airspace.cc/" title="Airspace" target="_blank">http://airspace.cc/</a>
  <a href="http://ileaderapp.co/" title="iLeader" target="_blank">http://ileaderapp.co/</a>
  <a href="https://www.westfield.com/" title="Westfield" target="_blank">https://www.westfield.com/</a>
+ </span>
  
 
 #### Jun 2014 - Present
