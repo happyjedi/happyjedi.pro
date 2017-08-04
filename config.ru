@@ -48,7 +48,7 @@ use Rack::TryStatic,
               [['zip'], { 'Content-Type' => 'application/zip' }],
               [['pdf'], { 'Content-Type' => 'application/pdf' }],
               [['xml'], { 'Content-Type' => 'application/rss+xml' }],
-              [['/assets'], { 'Cache-Control' => 'public', 'Vary' => 'Accept-Encoding' }]
+              [['/assets'], { 'Cache-Control' => 'public, max-age=31536000', 'Vary' => 'Accept-Encoding' }]
           ]
 
 run lambda { |env|

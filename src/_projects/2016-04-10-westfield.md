@@ -4,7 +4,7 @@ collection: project
 title:  "Westfield"
 link: "https://www.westfield.com/"
 thumbnail: "westfield.png"
-featurethumbnail: "westfield.png"
+featurethumbnail: "westfield_thumb.png"
 thumbnailalt: "Westfield mobile application"
 client: "Westfield"
 type: "Backend and front-end development"
