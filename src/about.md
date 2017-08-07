@@ -8,7 +8,7 @@ permalink: /about/
 <div class="introduction">
   <p>Hello.
     <br>I’m a passionate engineer and analyst. I have 7+ years of experience in
-    Software Development of projects from different spheres(Education, Marketing, 
+    Software Development on projects in different spheres(Education, Marketing, 
     Fire Safety, Aviation and Aircraft, Management). Last 3+ years I worked 
     as a full-stack Ruby on Rails developer. 
   </p>
@@ -152,3 +152,45 @@ TIT SFedU Center for University Preparatory Instruction</a>, Taganrog, Russia
 * I was a web-developer in the sphere of education 
 * I developed special applications for educational tests using Adobe Flash.
 * Technologies: Adobe Flash CS3 (Action Script 2.0), Moodle, HTML, CSS
+
+### Accomplishments
+
+#### Courses
+* CodeSchool - RailsTestingForZombies 
+* CodeSchool - Rails4Patterns 
+* CodeSchool - RailsBestPractices 
+* CodeSchool - Ruby on Rails for Zombies 
+* CodeSchool - Surviving API with Rails 
+* CodeSchool - Warming Up With Ember.js, Soup to Bits 
+* Pluralsight - Testing Ruby Applications with RSpec 
+* RailsCastsPro 
+* RubyGarage 
+* Udemy - The Complete IOS 9 Swift 2.0 Guide - Make 20 Applications 
+
+#### Books
+* Rails 5, Angular 4, Postgres 9.6, and Bootstrap 3, Second Edition, 2017, David Copeland
+* Practical Object-Oriented Design in Ruby, Sandi Metz
+* The Rails 4 Way,  Gregory Brown
+* Objects on Rails, Avdi Grimm
+* Growing Rails Applications in Practice, Henning Koch and Thomas Eisenbarth
+* iOS on Rails, Jessie Young and Diana Zmuda
+* Rails Antipatterns, Chad Pytel and Tammer Saleh
+* Refactoring Ruby edition, Jay Fields, Shane Harvie, Martin Fowler
+* Ruby Best Practices, 
+* Everyday Rails Testing with RSpec, Aaron Sumner 
+* The RSpec Book Behaviour Driven Development with Rspec, Cucumber, and Friends
+* Agile Web Development with Rails 4, Sam Ruby
+
+ 
+#### Awards     
+* Nominee Award of the 
+<a href="http://www.helirussia.ru/en/" title="Helicopter Industry Association of Russia (HIA)" target="_blank">
+Helicopter Industry Association of Russia (HIA)</a> for 2012 in the nomination "Promising Young Engineer of the Year"          
+     
+#### Certification     
+* Certificate of Participation in International Summer School of 
+<a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
+Eastern Mediterranean University (EMU)</a> 2014  
+
+
+         
