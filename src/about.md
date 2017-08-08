@@ -184,13 +184,13 @@ TIT SFedU Center for University Preparatory Instruction</a>, Taganrog, Russia
  
 #### Awards     
 * Nominee Award of the 
-<a href="http://www.helirussia.ru/en/" title="Helicopter Industry Association of Russia (HIA)" target="_blank">
-Helicopter Industry Association of Russia (HIA)</a> for 2012 in the nomination "Promising Young Engineer of the Year"          
+<span class="normal-link"><a href="http://www.helirussia.ru/en/" title="Helicopter Industry Association of Russia (HIA)" target="_blank">
+Helicopter Industry Association of Russia (HIA)</a></span> for 2012 in the nomination "Promising Young Engineer of the Year"          
      
 #### Certification     
 * Certificate of Participation in International Summer School of 
-<a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
-Eastern Mediterranean University (EMU)</a> 2014  
+<span class="normal-link"><a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
+Eastern Mediterranean University (EMU)</a></span> 2014  
 
 
          
