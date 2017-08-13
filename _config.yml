@@ -1,7 +1,7 @@
 safe: false
 port: 4000
 highlighter: rouge
-future: false
+future: true
 timezone: Europe/Moscow
 lsi: false
 markdown: kramdown

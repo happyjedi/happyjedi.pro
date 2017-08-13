@@ -160,7 +160,7 @@ Create a folder `config/provision` in our project's directory. Create `playbook.
 ```
 
 The source code for config files will be represented below. As you can find,
-in these files present special constructions - it's dynamic insertions of variables (Ansible provide this). You can declare variables for example in `playbook.yml` and use them inside of other config files.
+in these files present special constructions \{\{  \}\}- it's dynamic insertions of variables (Ansible provide this). You can declare variables for example in `playbook.yml` and use them inside of other config files.
 
 **Another part of this guide will be published soon...**
 

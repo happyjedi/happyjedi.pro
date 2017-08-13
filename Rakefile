@@ -21,7 +21,7 @@ end
 
 desc "Build the site with the production configuration."
 task :deploy do
-  system("JEKYLL_ENV=production bundle exec jekyll build") or exit!(1)
+  system("JEKYLL_ENV=production bundle exec jekyll build --verbose") or exit!(1)
 end
 
 desc "Convert markdown files to PDF"
