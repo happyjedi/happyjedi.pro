@@ -30,12 +30,7 @@ layout: default
           <p>This post is part of the {{ series_posts | size | apnumber }} part series <em>{{ site.series[page.series].title }}</em>. To see more from this series <a href="#series-information">check the series index</a>. </p>
         </section>
       {% endif %}
-
     </div>
-
-
-
-
   </div>
 </div>
 <main>
@@ -50,9 +45,10 @@ layout: default
     <article role="article" class="post-content">
       {{ content }}
     </article>
-    <hr>
+
     <section>
       {% if page.series %}
+        <hr>
         <section id="series-summary">
           <h3 id="series-information">More from the <em>{{ site.series[page.series].title }}</em> series</h3>
 

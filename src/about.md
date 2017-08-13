@@ -99,7 +99,7 @@ title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
 * Extensive DevOps skills and using of UNIX systems (Linux, OS X).
 * I was involved in development of backend, API for applications and CMS 
  systems for this projects:
- <span class="normal-link">
+ <span>
  <a href="http://airspace.cc/" title="Airspace" target="_blank">http://airspace.cc/</a>
  <a href="http://ileaderapp.co/" title="iLeader" target="_blank">http://ileaderapp.co/</a>
  <a href="https://www.westfield.com/" title="Westfield" target="_blank">https://www.westfield.com/</a>
@@ -184,12 +184,12 @@ TIT SFedU Center for University Preparatory Instruction</a>, Taganrog, Russia
  
 #### Awards     
 * Nominee Award of the 
-<span class="normal-link"><a href="http://www.helirussia.ru/en/" title="Helicopter Industry Association of Russia (HIA)" target="_blank">
+<span><a href="http://www.helirussia.ru/en/" title="Helicopter Industry Association of Russia (HIA)" target="_blank">
 Helicopter Industry Association of Russia (HIA)</a></span> for 2012 in the nomination "Promising Young Engineer of the Year"          
      
 #### Certification     
 * Certificate of Participation in International Summer School of 
-<span class="normal-link"><a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
+<span><a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
 Eastern Mediterranean University (EMU)</a></span> 2014  
 
 

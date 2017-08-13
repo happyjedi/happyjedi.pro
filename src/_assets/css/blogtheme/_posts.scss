@@ -131,3 +131,18 @@ ul.blog-posts {
     white-space: nowrap;
   }
 }
+
+.post-content {
+  a {
+    font-weight: bold;
+    color: $dark-blue;
+    word-break: normal;
+    transition: .3s color ease;
+    &:hover, &:focus {
+      color: $light-blue;
+    }
+    &.active {
+      color: $light-yellow;
+    }
+  }
+}
