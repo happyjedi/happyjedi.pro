@@ -47,8 +47,8 @@ Today we have several tools to make life easier for system administrators.
 For example -  [Chef](https://www.chef.io/chef/), [Ansible](https://www.ansible.com/),
 [Puppet](https://puppet.com/), [Salt](https://github.com/saltstack/salt).
 These products are using by DevOps-engineers for auto-management of server configurations.
-A big profit of Ansible that you don't need to install any extra applications (dependencies) on the server,
-because it already has the Python installed.  
+A big profit of Ansible that you don't need to install any extra applications (dependencies)
+on the server, because it already has the Python installed.  
 
 At the base of this tool is a playbook (in chef it's a cookbook). It's a YAML file,
 that contains a list of tasks that required to execute. Ansible is using for configuring
@@ -100,7 +100,8 @@ After the process complete we can exit from server. We will not login to server 
 #### SSH-keys generation
 
 We will need two pairs of keys. With the first one you (and Capistrano) will
-get  authorized to server from your local machine. With the second one you will provide the access from server to git repository. Keep the password empty for both key pairs.
+get  authorized to server from your local machine. With the second one you will provide
+the access from server to git repository. Keep the password empty for both key pairs.
 
 Run the command for the first pair (need to generate key on the local machine):
 
@@ -114,7 +115,9 @@ You can the path and name for key. And set the access for key:
 chmod 600 key_name
 ```
 
-Later with Ansible scripts we will copy the public key key_name.pub to file authorized_keys on the remote server to /home/user/.ssh folder for deployer user with which credentials we will authorized on the remote server.
+Later with Ansible scripts we will copy the public key `key_name.pub` to file
+`authorized_keys` on the remote server to `/home/user/.ssh` folder for deployer
+user with which credentials we will authorized on the remote server.
 
 #### Ansible installation on the local machine
 
@@ -156,7 +159,8 @@ Create a folder `config/provision` in our project's directory. Create `playbook.
       webservers
 ```
 
-The source code for config files will be represented below. As you can find, in these files present special constructions `{{ }}` - it's dynamic insertions of variables (Ansible provide this). You can declare variables for example in `playbook.yml` and use them inside of other config files.
+The source code for config files will be represented below. As you can find,
+in these files present special constructions - it's dynamic insertions of variables (Ansible provide this). You can declare variables for example in `playbook.yml` and use them inside of other config files.
 
 **Another part of this guide will be published soon...**
 
