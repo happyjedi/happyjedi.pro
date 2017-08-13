@@ -15,6 +15,9 @@ comments: true
 ---
 
 ## Job boards
+
+Boards rated by average number of founded vacancies 
+
    
 ### With a lot of vacancies  
   
