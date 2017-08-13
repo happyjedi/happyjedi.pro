@@ -14,4 +14,6 @@ date: 2016-04-10 11:15:00.000000000 +03:00
 I’ve worked on this project as part of WeAreApps.com team. 
 I’ve developed backend part and CMS system for Mobile Applications.
 
-Stack: Ruby on Rails, PostgreSQL, CSS, HTML, JavaScript, Ubuntu
+Stack: Ruby on Rails, PostgreSQL, CSS, HTML, JavaScript, Ubuntu.
+
+Source code: protected under NDA.
