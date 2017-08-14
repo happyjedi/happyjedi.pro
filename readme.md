@@ -1,6 +1,6 @@
 # happyjedi.pro Source
 
-This is the source code for my personal website, [happyjedi.pro][]
+This is the source code for my personal website, [happyjedi.pro](http://www.happyjedi.pro)
 
 ## Usage
 
