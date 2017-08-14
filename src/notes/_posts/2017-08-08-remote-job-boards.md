@@ -105,9 +105,14 @@ Boards are rated by average number of founded vacancies
   1. [CodeWars](https://www.codewars.com){: target="_blank"}
   1. [Codility](https://codility.com){: target="_blank"}
   1. [TopCoder](https://www.topcoder.com){: target="_blank"}
-  1. [HackerRank](https://www.hackerrank.com){: target="_blank"}
-  
+  1. [HackerRank](https://www.hackerrank.com){: target="_blank"}  
+  1. [Project Euler](http://projecteuler.net/problems){: target="_blank"}
+  1. [CodeEval](https://www.codeeval.com/open_challenges/){: target="_blank"}
+  1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
+  1. [Rubyquiz](http://rubyquiz.com/){: target="_blank"} 
+    
 ### Usefull resources for interview
   
   1. [Book: Cracking the coding interview](http://www.crackingthecodinginterview.com/){: target="_blank"}
   1. [Top 10 algorithms and data structures for competitive programming](http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/){: target="_blank"}
+  1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
