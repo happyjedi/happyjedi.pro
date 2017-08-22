@@ -110,9 +110,15 @@ Boards are rated by average number of founded vacancies
   1. [CodeEval](https://www.codeeval.com/open_challenges/){: target="_blank"}
   1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
   1. [Rubyquiz](http://rubyquiz.com/){: target="_blank"} 
+  1. [CodeChef](https://www.codechef.com/problems/easy/){: target="_blank"} 
+  1. [programming-motherfucker](http://programming-motherfucker.com/){: target="_blank"} 
     
 ### Usefull resources for interview
   
   1. [Book: Cracking the coding interview](http://www.crackingthecodinginterview.com/){: target="_blank"}
   1. [Top 10 algorithms and data structures for competitive programming](http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/){: target="_blank"}
   1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
+  
+### Avarage salary for remote workers
+  
+  1.[What hourly rate do you pay to your offshore developers?](https://www.quora.com/What-hourly-rate-do-you-pay-to-your-offshore-developers-Im-trying-to-get-a-sense-of-what-prices-are-normal-in-various-locales-India-Eastern-Europe-Vietnam){: target="_blank"}
