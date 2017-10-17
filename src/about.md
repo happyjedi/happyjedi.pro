@@ -20,23 +20,32 @@ permalink: /about/
     started my own e-commerce project in the sphere of fire safety in Russia 
     (<a href="https://defexpro.ru" 
          title="defexpro.ru" target="_blank">defexpro.ru</a>). Possibly 
-         this project will be used by Russia government 
-    as platform for their special project for EMERCOM ministry. So, 
-    I have experience as individual entrepreneur. 
+         this project will be used by Russian government 
+    as platform for their special project for EMERCOM ministry, I had official negotiations with ministry. 
+    So, I have experience as individual entrepreneur. 
     Also I’ve worked as full-stack Ruby on Rails developer at <a href="http://weareapps.com" 
     title="weareapps.com" target="_blank">weareapps.com</a> about 1.5+ year at remote 
     full-time position and was involved in different projects with 
     positive feedback, improved performance of existed projects. 
-  </p>  
+  </p>
+  <p>My last project was from the field of Education. It's an educational platform - LeveL 90
+  (<a href="https://level90.net/" title="https://level90.net/" target="_blank">https://level90.net/</a>), 
+  Startup developed with Ruby on Rails. I worked as Senior Ruby on Rails developer, 
+  I developed a lot of new features and improved performance of queries to DB for some modules by 30-40%, 
+  they don't have any optimizations before (I've reduced the count of queries(in 5 times) and time, I used Bullet and Rack-mini-profiler). 
+  And also I developed new architecture of application for next version according to new requirements. 
+  But now this project has frozen for some reasons(It's a startup, so...) and I'm open for new opportunities now.</p>
+  
+  <p>And also I have my personal blog site - <a href="http://happyjedi.pro/" title="http://happyjedi.pro/" target="_blank">http://happyjedi.pro/</a>)</p>
   
   <p>I'm specialising in backend development with Ruby on Rails. I have 
     experience of using Rspec, Capybara, PostgreSQL, JavaScript, JQuery, 
     HAML, SCSS, Redis, Sidekiq, ElasticSearch, Puma, Nginx, NewRelic, 
-    Ansible, Capistrano. Worked with React Native, BackboneJS, AngularJS. 
+    Ansible, Capistrano. I have some experience with React Native, BackboneJS, AngularJS. 
     Extensive using of UNIX systems (Linux, OS X).
   </p> 
   
-  <p> Before Web-development I’ve worked as a Software developer in the
+  <p>Before Web-development I’ve worked as a Software developer in the
     sphere of Aviation and Aircraft construction of Russia. I developed different desktop 
     applications, drivers and  software for complex systems and special 
     devices to test hardware  parts of airplanes and helicopters using a 
@@ -49,13 +58,13 @@ permalink: /about/
     EMERCOM of Russia, the famous world aircraft manufacturers.
   </p> 
   
-  <p>I'm always improving my skills and interesting in new techonolgies, 
-    for example next target is Elixir</p> 
+  <p>I'm always improving my skills and interesting in new technologies, 
+    for example the next target is Elixir and AngularJS</p> 
   
-   <p><strong> Now I’m looking for a long-term remote work as the full-stack Ruby on 
-     Rails developer, looking for interesting projects that would change the world. 
-     And also I'm interesting in relocation from Russia to Canada, USA, 
-     Luxembourg or Switzerland.</strong>
+   <p><strong> Now I’m looking for a long-term remote work as Ruby on 
+     Rails developer. I'm interesting in projects that would change the world. 
+     And also I'm interesting in relocation from Russia to Switzerland, Canada or 
+     Luxembourg.</strong>
    </p> 
   
   <p> Every project is important for me. I like solving problems for 
@@ -65,7 +74,6 @@ permalink: /about/
   
   <p> Good luck and take care.</p>
 </div>
-
 
 ### Education
 
@@ -79,15 +87,30 @@ Bachelor's degree of Computer engineering
 
 ### Languages
 
-* <strong>Russian</strong>: native
-* <strong>English</strong>: professional working proficiency
-* <strong>French</strong>: started learning 
+* **Russian**: native
+* **English**: professional working proficiency
+* **French**: started learning 
 
 ### Experience
 
+#### Aug 2017 – Current time
+**Senior Ruby on Rails developer** at <a href="https://level90.net/" 
+title="LeveL90" target="_blank">Level90 (https://level90.net/)</a>, Kazan, Russia
+
+* [https://www.facebook.com/LeveL90courses/](Facebook group - https://www.facebook.com/LeveL90courses/)
+<br>
+<br>
+* It's an educational platform - LeveL 90, Startup developed with Ruby on Rails, I'm working here as Senior Ruby on Rails developer
+* Developed a lot of new features and improved performance of existing project  
+* Developed a new architecture of application for next version according to new requirements
+* But now this project has frozen for some reasons (It's a startup, so...)
+* Technologies: Ruby on Rails, PostgreSQL, JQuery, JavaScript, Capistrano, Ubuntu, RSpec, 
+GIT systems (Gitlab), Agile, Trello
+
+
 #### Apr 2016 – Jun 2017
 **Full Stack developer** at <a href="http://weareapps.com" 
-title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
+title="We Are Apps" target="_blank">We Are Apps(http://weareapps.com)</a>, London, United Kingdom
 
 * Web & mobile application development
 * I worked as the full-stack web-developer at remote full-time position and 
@@ -108,7 +131,6 @@ title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
 
 #### Jun 2014 - Present
 **Full Stack Ruby on Rails developer** as Individual Entrepreneur, Krasnodar, Russia
-
 
 * I'm working as self-employed developer, looking for remote long-term vacancies and also 
   developing my own projects, always improving my skills
@@ -131,7 +153,7 @@ title="We Are Apps" target="_blank">We Are Apps</a>, London, United Kingdom
 
 #### May 2011 – Jun 2014
 **Software Engineer** at <a href="http://www.beta-air.com/en" 
-title="Beta Air" target="_blank">Beta Air</a>, Taganrog, Russia
+title="Beta Air" target="_blank">Beta Air - (http://www.beta-air.com/en)</a>, Taganrog, Russia
 
 * I was a System software engineer in the sphere of Aviation and Aircraft
 * I was involved in almost all parts of software and hardware development – 
@@ -151,9 +173,25 @@ TIT SFedU Center for University Preparatory Instruction</a>, Taganrog, Russia
 
 * I was a web-developer in the sphere of education 
 * I developed special applications for educational tests using Adobe Flash.
-* Technologies: Adobe Flash CS3 (Action Script 2.0), Moodle, HTML, CSS
+* Developed educational materials with HTML+CSS+JS
+* Technologies: Adobe Flash CS3 (Action Script 2.0), Moodle, HTML, CSS 
+
+<br>
+### Contacts
+* Email - happy.jedi.g@gmail.com
+* Skype - happy.jedi.v
+* Telegram - https://t.me/HappyJedi
+* Github - http://github.com/happyjedi (there is a part of my working projects and most of them Private)
 
 ### Accomplishments
+
+#### Projects    
+* [Level90 - https://level90.net/](https://level90.net/)
+* [My personal Blog - http://happyjedi.pro/](http://happyjedi.pro/)
+* [iLeader - http://ileaderapp.co/](http://ileaderapp.co/)
+* [Airspace - http://airspace.cc/](http://airspace.cc/)
+* [Westfield - https://www.westfield.com/](https://www.westfield.com/)
+* [DefexPro - https://www.defexpro.ru/](https://www.defexpro.ru/)
 
 #### Courses
 * CodeSchool - RailsTestingForZombies 
@@ -192,5 +230,3 @@ Helicopter Industry Association of Russia (HIA)</a></span> for 2012 in the nomin
 <span><a href="http://ww1.emu.edu.tr/en/" title="Eastern Mediterranean University (EMU)" target="_blank">
 Eastern Mediterranean University (EMU)</a></span> 2014  
 
-
-         
