@@ -118,6 +118,8 @@ Boards are rated by average number of founded vacancies
   1. [Book: Cracking the coding interview](http://www.crackingthecodinginterview.com/){: target="_blank"}
   1. [Top 10 algorithms and data structures for competitive programming](http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/){: target="_blank"}
   1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
+  1. [top-online-tools-testing-candidates-coding-skills](http://elevatedirect.com/blog/top-online-tools-testing-candidates-coding-skills/){: target="_blank"}
+  
   
 ### Avarage salary for remote workers
   
