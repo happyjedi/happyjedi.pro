@@ -93,7 +93,7 @@ Bachelor's degree of Computer engineering
 
 ### Experience
 
-#### Aug 2017 – Current time
+#### Aug 2017 – Present
 **Senior Ruby on Rails developer** at <a href="https://level90.net/" 
 title="LeveL90" target="_blank">Level90 (https://level90.net/)</a>, Kazan, Russia
 
