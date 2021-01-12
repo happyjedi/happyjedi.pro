@@ -18,5 +18,5 @@ comments: true
 
 #### Admin panel
 
-  1. [InterviewCake](https://www.interviewcake.com/){: target="_blank"}
+  1. [InterviewCake](https://www.interviewcake.com/){:target="_blank"}
  

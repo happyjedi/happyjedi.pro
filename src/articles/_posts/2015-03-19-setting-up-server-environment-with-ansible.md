@@ -20,17 +20,17 @@ In this post I will explain how to simply and fast setup the server
 environment and deploy the Ruby on Rails application with Ansible and Capistrano.
 
 Our application will use:
- * [Rbenv v1.0.0](https://github.com/rbenv/rbenv){: target="_blank"} for managing Ruby versions
- * [Ruby v2.2.2](https://github.com/ruby/ruby/tree/ruby_2_2){: target="_blank"}
- * [Ruby on Rails v4.2.3](https://github.com/rails/rails){: target="_blank"}
- * [Ansible v1.9.4](https://www.ansible.com/){: target="_blank"} - a radically simple IT automation system
- * [Bluepill v0.1.1](https://github.com/bluepill-rb/bluepill){: target="_blank"} - simple process monitoring tool
- * [NGINX v1.9.9](http://nginx.org/){: target="_blank"} - an HTTP and reverse proxy server
- * [Puma v3.2.0](https://github.com/puma/puma){: target="_blank"} - a simple, fast, threaded,
+ * [Rbenv v1.0.0](https://github.com/rbenv/rbenv){:target="_blank"} for managing Ruby versions
+ * [Ruby v2.2.2](https://github.com/ruby/ruby/tree/ruby_2_2){:target="_blank"}
+ * [Ruby on Rails v4.2.3](https://github.com/rails/rails){:target="_blank"}
+ * [Ansible v1.9.4](https://www.ansible.com/){:target="_blank"} - a radically simple IT automation system
+ * [Bluepill v0.1.1](https://github.com/bluepill-rb/bluepill){:target="_blank"} - simple process monitoring tool
+ * [NGINX v1.9.9](http://nginx.org/){:target="_blank"} - an HTTP and reverse proxy server
+ * [Puma v3.2.0](https://github.com/puma/puma){:target="_blank"} - a simple, fast, threaded,
 and highly concurrent HTTP 1.1 server for Ruby/Rack applications
- * [Capistrano v3.4.0](https://github.com/capistrano/capistrano){: target="_blank"} - Remote multi-server automation tool
- * [Redis v3.0.7](https://redis.io/]){: target="_blank"} -  an open source (BSD licensed), in-memory data structure store for cache server
- * [PostgreSQL v9.4.4](https://www.postgresql.org/){: target="_blank"}
+ * [Capistrano v3.4.0](https://github.com/capistrano/capistrano){:target="_blank"} - Remote multi-server automation tool
+ * [Redis v3.0.7](https://redis.io/]){:target="_blank"} -  an open source (BSD licensed), in-memory data structure store for cache server
+ * [PostgreSQL v9.4.4](https://www.postgresql.org/){:target="_blank"}
 
 ### Server setup with Ansible  
 
@@ -44,8 +44,8 @@ with special versions. And possibly, we will need to manage a dozens of
 servers with the same environment with little differences, it's not a trivial task.
 
 Today we have several tools to make life easier for system administrators.
-For example -  [Chef](https://www.chef.io/chef/){: target="_blank"}, [Ansible](https://www.ansible.com/){: target="_blank"},
-[Puppet](https://puppet.com/){: target="_blank"}, [Salt](https://github.com/saltstack/salt){: target="_blank"}.
+For example -  [Chef](https://www.chef.io/chef/){:target="_blank"}, [Ansible](https://www.ansible.com/){:target="_blank"},
+[Puppet](https://puppet.com/){:target="_blank"}, [Salt](https://github.com/saltstack/salt){:target="_blank"}.
 These products are using by DevOps-engineers for auto-management of server configurations.
 A big profit of Ansible that you don't need to install any extra applications (dependencies)
 on the server, because it already has the Python installed.  
@@ -130,7 +130,7 @@ sudo apt-get update
 sudo apt-get install ansible
 ```
 
-Instructions for another platforms can be found  [here](http://docs.ansible.com/ansible/latest/intro_installation.html#installation){: target="_blank"}
+Instructions for another platforms can be found  [here](http://docs.ansible.com/ansible/latest/intro_installation.html#installation){:target="_blank"}
 
 Check the version:
 
@@ -164,4 +164,4 @@ in these files present special constructions \{\{  \}\}- it's dynamic insertions
 
 **Another part of this guide will be published soon...**
 
-All sources and templates could be found here: [https://github.com/happyjedi/Guides/tree/master/Ansible/provision](https://github.com/happyjedi/Guides/tree/master/Ansible/provision){: target="_blank"}    
+All sources and templates could be found here: [https://github.com/happyjedi/Guides/tree/master/Ansible/provision](https://github.com/happyjedi/Guides/tree/master/Ansible/provision){:target="_blank"}    

@@ -4,6 +4,7 @@ _site
 .DS_Store
 .idea/
 .rbenv-gemsets
+.rakeTasks
 build
 
 /src/.asset-cache/
