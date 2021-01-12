@@ -18,7 +18,7 @@ In this post I will explain how to setup Free SSL certificates for your server w
 
 ### Install CertBot
 
-We will use a special service - [CertBot](https://certbot.eff.org/){:target="_blank"}. It automatically enables HTTPS on your website with EFF's Certbot, and deploys [Let's Encrypt](https://letsencrypt.org/){:target="_blank"} certificates. Execute below commands to install certbot:
+We will use a special service - [CertBot](https://certbot.eff.org/). It automatically enables HTTPS on your website with EFF's Certbot, and deploys [Let's Encrypt](https://letsencrypt.org/) certificates. Execute below commands to install certbot:
 
 ```
 wget https://dl.eff.org/certbot-auto
@@ -94,7 +94,7 @@ service nginx restart
 This guide doesn't cover the SSL configuration of your application, so you should find this information by yourself.
 
 You can test your SSL configuration for security vulnerability by using this service:
-[https://www.ssllabs.com/ssltest/analyze.html?d=www.example.com](https://www.ssllabs.com/ssltest/analyze.html?d=www.example.com){:target="_blank"}
+[https://www.ssllabs.com/ssltest/analyze.html?d=www.example.com](https://www.ssllabs.com/ssltest/analyze.html?d=www.example.com)
 
 And also you can subscribe to the expiry notifier by this command:
 ```
