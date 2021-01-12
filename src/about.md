@@ -63,7 +63,7 @@ permalink: /about/
   
    <p><strong> Now I’m looking for a long-term remote work as Ruby on 
      Rails developer. I'm interesting in projects that would change the world. 
-     And also I'm interesting in relocation from Russia to Switzerland, Canada or 
+     And also I'm interesting in relocation from Russia to Switzerland or 
      Luxembourg.</strong>
    </p> 
   
