@@ -130,7 +130,7 @@ DEPENDENCIES
   yui-compressor
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 2.5.8p224
 
 BUNDLED WITH
    2.2.4
