@@ -43,7 +43,7 @@ Boards are rated by average number of founded vacancies
 ### With several vacancies 
   
   1. [Find Bacon](https://findbacon.com/jobs/remote)
-  1. [Working Nomads](http://www.workingnomads.co/jobs)
+  1. [Working Nomads](https://www.workingnomads.co/jobs?tag=ruby-on-rails)
   1. [whoishiring.io](https://whoishiring.io/search/-1.2999/-32.6511/2?remote=true&search=rails)
   
 ### With few vacancies  
