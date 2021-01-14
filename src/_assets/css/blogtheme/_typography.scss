@@ -108,7 +108,11 @@ p {
 }
 
 .recommendations-title {
-	padding-bottom: 3em;
+	margin-bottom: 2.5em;
+
+	@media screen and (min-width: 700px) {
+		padding-bottom: 2em;
+	}
 }
 
 .recommendation-block {
