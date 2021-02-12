@@ -32,7 +32,7 @@ opengraph:
   image: apple-touch-icon
 
 header: Mars_1920x1200
-time: 2020-01-13
+time: 2021-01-13
 
 static_path: 'http://happyjedi.pro/assets/'
 styles_path: 'http://happyjedi.pro/assets/'
