@@ -132,7 +132,7 @@ title="Intetics Inc.">Intetics Inc. (https://intetics.com/)</a>, Florida, USA, R
 **Senior Ruby on Rails developer** at <a href="https://level90.net/" 
 title="LeveL90">Level90 (https://level90.net/)</a>, Kazan, Russia, Remote
 
-* [Facebook group - https://www.facebook.com/LeveL90courses/](https://www.facebook.com/LeveL90courses/)
+
 
 **Project description:**
 * Educational platform with different courses
@@ -188,7 +188,7 @@ title="We Are Apps">We Are Apps(http://weareapps.com)</a>, London, United Kingdo
 * I have developed all parts of project - idea, architecture, created business requirements and development tasks, database-content, algorithms, admin-panel, design, tests, server-administration, deployment, marketing, SEO (Google, Yandex), promotion, accounting and finance, jurisprudence and other. E.g. was as CTO, PM, PO and TM roles all at once. However, we didn’t get an agreement from Russian Government to integrate it to their existed on-line systems, because of complex law system, so, the project is on hold.
 
 **Technologies:** 
-* Ruby on Rails 4, REST API, PostgreSQL, Redis, Puma, Nginx, ElasticSearch, Sidekiq, Rspec, Capybara, SLIM, SCSS, JS, Jquery, Twitter Bootstrap, Capistrano, Ansible, DigitalOcean, Heroku, Github, NewRelic, BluePIll, Linux, OS X
+* Ruby on Rails 4, REST API, PostgreSQL, Redis, Puma, Nginx, ElasticSearch, Sidekiq, Rspec, Capybara, SLIM, SCSS, JS, Jquery, Capistrano, Ansible, DigitalOcean, Heroku, Github, NewRelic, BluePIll, Linux, OS X
 
 
 #### May 2011 – Jun 2014

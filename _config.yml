@@ -18,17 +18,13 @@ author: Victor Vinogradov
 description: Victor Vinogradov - a software developer, entrepreneur and traveller
 email: 'happy.jedi.g@gmail.com'
 url: 'http://happyjedi.pro'
-twitter_username: HappyJedi
 linkedin: https://www.linkedin.com/in/vinogradovvictor/
-facebook: https://www.facebook.com/profile.php?id=100011351259791
 github_user: happyjedi
 skype: happy.jedi.v
 upwork: https://www.upwork.com/o/profiles/users/_~012e21489bc1a0781d/
 telegram: https://t.me/HappyJedi
 
 opengraph:
-  page: https://www.facebook.com/profile.php?id=100011351259791
-  personal: https://www.facebook.com/profile.php?id=100011351259791
   image: apple-touch-icon
 
 header: Mars_1920x1200

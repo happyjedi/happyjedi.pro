@@ -52,7 +52,7 @@ on the server, because it already has the Python installed.
 
 At the base of this tool is a playbook (in chef it's a cookbook). It's a YAML file,
 that contains a list of tasks that required to execute. Ansible is using for configuring
-servers by famous companies such as Twitter, Electronic Arts, Evernote and GoPro.  
+servers by famous companies such as Electronic Arts, Evernote and GoPro.  
 Declarativity and simplicity of playbooks is one of the strongest sides of this tool.
 A special form of file is using for the list of hosts on which the playbooks will be cast:
 
