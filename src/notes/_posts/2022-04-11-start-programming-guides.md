@@ -1,17 +1,13 @@
 ## IT Направления
    
 ### 1. Backend разработка  
-  
-  1. [We Work Remotely]()
- 
+   
 #### Ruby, Ruby on Rails
 
   1. [Полный Tutorial для начинающих](http://rusrails.ru/)
  
 #### Python 
-  
-  1. [Find Bacon](https://findbacon.com/jobs/remote)
-  
+    
 
 ### 2. Frontend разработка
 
