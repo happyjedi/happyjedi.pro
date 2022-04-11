@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 ## IT Направления
    
 ### 1. Backend разработка  
